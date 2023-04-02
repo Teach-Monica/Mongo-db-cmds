@@ -1,4 +1,4 @@
-const products=[
+db.products.insertMany([
     {
         "id": "1",
         "product_name": "Intelligent Fresh Chips",
@@ -174,7 +174,7 @@ const products=[
         "product_material": "Cotton",
         "product_color": "indigo"
     }
-]
+])
 
 
 
